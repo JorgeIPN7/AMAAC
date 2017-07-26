@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background_ninos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary_alpha"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        tools:ignore="DisableBaselineAlignment">
+
+        <LinearLayout
+            android:id="@+id/principal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight=".5"
+            android:orientation="vertical"
+            android:weightSum="1"
+            tools:ignore="RtlHardcoded">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_launcher"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textAlignment="center"
+                android:textColor="@color/colorIcons"
+                android:textSize="60sp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Cargando las configuraciones"
+                android:textAllCaps="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colorIcons"
+                android:textSize="22sp"
+                android:textStyle="normal|bold"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Esto tardara unos minutos"
+                android:textColor="@color/colorIcons"
+                android:textSize="20sp"
+                android:textStyle="normal|bold"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/loadText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight=".40"
+                android:gravity="center"
+                android:text="1"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorIcons"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,NestedWeights" />
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_weight=".40"
+                tools:ignore="InefficientWeight,ObsoleteLayoutParam" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/progressBar1"
+                android:layout_weight=".20"
+                android:gravity="center"
+                android:text="Espera"
+                android:textAlignment="center"
+                android:textColor="@color/colorIcons"
+                android:textSize="10sp"
+                android:textStyle="normal|bold"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam,SmallSp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+

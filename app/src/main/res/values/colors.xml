@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0288D1</color>
+    <color name="colorPrimaryMenu">#3BB3F0</color>
+
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorPrimary_light">#B3E5FC</color>
+    <color name="colorAccent">#FFBC00</color>
+    <color name="colorPrimary_text">#212121</color>
+    <color name="colorSecondary_text">#757575</color>
+    <color name="colorIcons">#ffffff</color>
+    <color name="colorDivider">#BDBDBD</color>
+
+    <color name="fondotransparente">#00ffffff</color>
+    <color name="background_footer">#20000000</color>
+
+    <color name="colorPrimary_alpha">#700288D1</color>
+    <color name="colorPrimary_alpha_launcher">#AA0288D1</color>
+
+    <color name="color_verbos_aux">#FE2E2E</color>
+    <color name="color_respuestas">#FF8000</color>
+    <color name="color_verbos">#C1C110</color>
+    <color name="color_bebidas">#5BB000</color>
+    <color name="color_frutas">#00D000</color>
+    <color name="color_verduras">#11C070</color>
+    <color name="color_comida">#26D0D0</color>
+    <color name="color_postres">#0080FF</color>
+    <color name="color_alimentos">#6B6BFF</color>
+    <color name="color_animales">#B870FF</color>
+    <color name="color_objetos">#FF00FF</color>
+    <color name="color_animo">#FF0080</color>
+    <color name="color_lugares">#FF0020</color>
+    <color name="color_familia">#848484</color>
+    <color name="color_profesiones">#CCCCCC</color>
+
+    <color name="color_marco">#EFB30C</color>
+
+    <!-- MENU: GuiaTutor -->
+
+    <color name="colorMenuPrimaryText">#FAFAFA</color>
+    <color name="colorMenuSecondaryText">#F5F5F5</color>
+    <color name="colorMenuTertiaryText">#EEEEEE</color>
+    <color name="colorMenuQuaternaryText">#E0E0E0</color>
+
+    <!--Pink 500-->
+    <color name="accent_500">#E91E63</color>
+    <!--Pink 700-->
+    <color name="accent_700">#C2185B</color>
+
+
+</resources>
+
+
+
+

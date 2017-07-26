@@ -1,0 +1,41 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_pictograma"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card_view:cardBackgroundColor="@color/background_footer"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/iv_card"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:ignore="ContentDescription"
+            card_view:srcCompat="@drawable/ic_android_muestra" />
+
+        <TextView
+            android:id="@+id/tv_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="@string/txt_titulo"
+            android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+            android:textColor="@color/colorIcons"
+            app:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

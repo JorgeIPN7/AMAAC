@@ -1,0 +1,176 @@
+<resources>
+
+    <!--  Nombre de la aplicación -->
+    <string name="app_name">AMAAC</string>
+
+    <!--  Categorias de pictogramas -->
+    <string name="categoria_verbos">Verbos</string>
+    <string name="categoria_alimentos">Alimentos</string>
+    <string name="categoria_familia">Familia</string>
+    <string name="categoria_profesiones">Profesiones</string>
+    <string name="categoria_lugares">Lugares</string>
+    <string name="categoria_animales">Animales</string>
+
+    <!--  Nombre de la base de datos -->
+    <string name="nombre_db">amaac.sqlite</string>
+
+    <!--  Letra molde de ejercicio preestablecido vocales -->
+    <string name="letra_molde">Aa</string>
+
+    <!--  Etiquetas de la plantilla item cardView categoria y frase -->
+    <string name="txt_titulo">Titulo</string>
+
+    <!--  Letra molde de categoria vocales -->
+    <string name="txt_vocales">Vocales</string>
+
+    <!--  Actividad términos y condiciones -->
+    <string name="titulo_terminos_y_condiciones">TÉRMINOS Y CONDICIONES:</string>
+    <string name="contenido_terminos_y_condiciones">
+        <![CDATA[
+        <html>
+            <body style="text-align:justify">
+
+            <p><b>INFORMACIÓN RELEVANTE</b></p>
+            <p>Es requisito necesario para el uso de esta aplicación, que lea y acepte los siguientes Términos y Condiciones que a continuación se redactan. El uso de nuestra aplicación implicará que usted ha leído y aceptado los Términos y Condiciones de Uso en el presente apartado.</p>
+            <p>Esta aplicación no cura ningún tipo de dislalia o tartamudez. El uso de nuestra aplicación es de una herramienta auxiliar a los síntomas de estos trastornos del habla  y no deberá de sustituir en ningún momento al tratamiento de un profesional en esta área como es el caso de un logopeda.</p>
+            <p>Esta aplicación ésta diseñada para el uso de un niño de 3 a 4 años debido a que estudios demuestran que a esta edad es posible corregir diversos trastornos del habla aunque puede ser usada por cualquier persona mayor a esta edad debido a su utilidad  como herramienta aumentativa ( compensadora del lenguaje) y alternativa (sustituta del habla) de comunicación.</p>
+
+             <p><br/><b>PROPIEDAD</b></p>
+             <p>Los botones de la aplicación fueron tomados de http://www.freepik.com & Designed by Freepik.</p>
+             <p>Los símbolos pictográficos utilizados son propiedad del Gobierno de Aragón y han sido creador por Sergio Palao para ARASAAC (http://arasaac.org) que los distribuye bajo licencia Creative Commons (BY-NC-SA).</p>
+
+              <p><br/><b>PRIVACIDAD</b></p>
+              <p>Esta aplicación no requiere de ningún dato personal para su correcto funcionamiento.</p>
+              <p>AMAAC reserva los derechos de cambiar o de modificar estos términos sin previo aviso.</p>
+
+            </body>
+        </Html>
+    ]]>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </string>
+    <string name="aceptar">ACEPTAR</string>
+    <string name="rechazar">RECHAZAR</string>
+
+
+    <string name="title_activity_splash_screenn">SplashScreenn</string>
+
+    <!--  UI Menu drawable -->
+    <string name="consejos_relajacion">Técnicas de relajación</string>
+    <string name="guia_padre">¿Cómo usar la aplicación?</string>
+    <string name="ejercicios_especificos">Config. ejercicios especificos</string>
+    <string name="title_tecnica_detail">Detalle de la técnica</string>
+    <string name="title_guiapadre_detail">guia_padre Detail</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="categoria_verbos_aux">Verbos AUX</string>
+    <string name="categoria_respuestas">Respuestas</string>
+    <string name="categoria_bebidas">Bebidas</string>
+    <string name="categoria_frutas">Frutas</string>
+    <string name="categoria_verduras">Verduras</string>
+    <string name="categoria_comida">Comida</string>
+    <string name="categoria_postres">Postres</string>
+    <string name="categoria_objetos">Objetos</string>
+    <string name="categoria_animo">Animo</string>
+
+
+        <string name="lorem">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </string>
+
+    <!--  item_tipo_nivel.xml -->
+    <string name="txt_plantilla_progreso">0/0</string>
+
+    <!--                  UI como usar la aplicación?                 -->
+    <!--  Titulos -->
+    <string name="como_usar_app_titulo1">¿Cómo usar la sección principal?</string>
+    <string name="como_usar_app_titulo2">¿Cómo usar el tablero de comunicación?</string>
+    <string name="como_usar_app_titulo3">Técnica de relajación</string>
+
+    <string name="como_usar_app_titulo4">Titulo4</string>
+    <string name="como_usar_app_titulo5">Titulo 5</string>
+    <string name="como_usar_app_titulo6">Titulo 6</string>
+    <string name="como_usar_app_titulo7">Titulo7</string>
+
+    <!--  Descripción -->
+    <string name="como_usar_app_descripcion1">
+La sección de niveles esta diseñada para ayudar a niños con problemas de dislalia audiógena (El niño pronuncia incorrectamente algunos fonemas debido a que los escucha de forma incorrecta) y funcional (es causada principalmente por la inexperiencia del niño al usar su aparato fonatorio ) así como a los niños que presenten principios de tartamudez.
+Esta sección consiste en una serie de ejercicios de ritmo los cuales ayudan al niño a controlar su respiración y mejorar en su pronunciación corrigiendo en la mayoria de los casos los principios de dislalia o tartamudez que llegase a presentar el niño.
+    </string>
+    <string name="como_usar_app_descripcion2">
+El tablero de cominicación es una herramienta aumentativa y/o alternativa de comunicación diseñada para ayudar al niño que no pueda pronunciar alguna palabra o bien que le sea imposible la articulación de ésta.
+    </string>
+    <string name="como_usar_app_descripcion3">
+        \n Es muy importante que el niño se encuentre relajado a la hora de usar la sección de niveles, es por este motivo que ponemos a su disposición una seríe de consejos y técnicas de relajación las cuales podrá usar en el niño y así lograr que éste entre en un estado de relajación optimo para usar la sección niveles optimamente.
+    </string>
+    <string name="como_usar_app_descripcion4">Descripción 4</string>
+    <string name="como_usar_app_descripcion5">Descripción 5</string>
+    <string name="como_usar_app_descripcion6">Descripción 6</string>
+    <string name="como_usar_app_descripcion7">Descripción 7</string>
+
+    <!--  Fechas -->
+    <string name="como_usar_app_fecha1"></string>
+    <string name="como_usar_app_fecha2"></string>
+    <string name="como_usar_app_fecha3"></string>
+
+    <string name="como_usar_app_fecha4">04/03/2016</string>
+    <string name="como_usar_app_fecha5">05/03/2016</string>
+    <string name="como_usar_app_fecha6">06/03/2016</string>
+    <string name="como_usar_app_fecha7">07/03/2016</string>
+
+    <!--UILayout fragmento_detalle_articulo.xml-->
+    <string name="titulo">Titulo</string>
+    <string name="fecha">Fecha</string>
+
+    <!--UILayout tecnica_list_content.xml-->
+    <string name="resumen">Resumen</string>
+
+    <!--UILayout tecnica_detail.xml-->
+    <string name="nota">
+        Nota: No olvide que usted puede ver un vídeo acerca de esta técnica pulsando sobre el icono de vídeo ubicado a la izquierda de esta nota o en la parte superior de la pantalla
+    </string>
+
+    <!--UILayout item_card_view_ejercicio_preestablecido.xml-->
+    <string name="plantilla_porcentaje_progreso">100%</string>
+
+    <!--Layout item_ejercicio.xml-->
+    <string name="plantilla_vocal">Aa</string>
+    <string name="descripción_play_musica">Es el botón para reproducir la música</string>
+    <string name="descripcion_stop_musica">Es el botón para parar la música</string>
+    <string name="descripcion_siguiente">Es el botón para habilitar el siguiente ejercicio</string>
+    <string name="descripcion_imagen_temporizador">Imágen del temporizador</string>
+
+    <!--Layout dialogo_seccion_terminada.xml-->
+    <string name="continuar">CONTINUAR</string>
+    <string name="msj_felicidades">FELICIDADES</string>
+    <string name="msj_terminastes">Haz terminado esta sección</string>
+    <string name="descripcion_imagen_dialogo">Es la imágen representativa del diálogo</string>
+
+</resources>

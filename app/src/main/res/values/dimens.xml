@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="app_bar_height">100dp</dimen>
+    <dimen name="item_width">420dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="margen_estandar">16dp
+    </dimen><!-- La margen estándar hace referencia al espaciado que se usa con mayor frecuencia en Android. -->
+    <dimen name="altura_item">122dp
+    </dimen><!-- La altura del ítem es el tamaño de cada ítem de la lista. -->
+    <dimen name="margen_izquierda_contenido">72dp
+    </dimen><!--La margen izquierda del contenido se usa como alineación en el detalle.  -->
+    <dimen name="ancho_miniatura">120dp
+    </dimen><!-- El ancho de la miniatura hace referencia al tamaño de la imagen en los ítems de la lista -->
+    <dimen name="ancho_panel_lista">512dp
+    </dimen><!-- El ancho del panel de lista hace referencia a su tamaño.. -->
+
+
+    <!-- Texto -->
+    <dimen name="textDisplay4">112sp</dimen>
+    <dimen name="textDisplay3">56sp</dimen>
+    <dimen name="textDisplay2">45sp</dimen>
+    <dimen name="textDisplay1">34sp</dimen>
+    <dimen name="textHeadline">20sp</dimen>
+    <dimen name="textTitle">21sp</dimen>
+    <dimen name="textSubheading">17sp</dimen>
+    <dimen name="textBody2">18sp</dimen>
+    <dimen name="textBody1">15sp</dimen>
+    <dimen name="textCaption">13sp</dimen>
+    <dimen name="textButton">11sp</dimen>
+    <dimen name="comoUsarMargen">5dp</dimen>
+
+    <!--Cuadro de  dialogo seccion terminada-->
+    <dimen name="dialog_body">24dp</dimen>
+    <dimen name="padding_between">20dp</dimen>
+    <dimen name="button_padding">24dp</dimen>
+
+
+    <dimen name="edit_text_padding">16dp</dimen>
+    <dimen name="normal_padding">8dp</dimen>
+</resources>

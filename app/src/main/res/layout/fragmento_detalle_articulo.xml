@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/articulo_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary_alpha_launcher"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".controlador.activitys.TecnicaDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryMenu"
+        android:elevation="10dp"
+        android:layout_weight=".45"
+        android:orientation="vertical"
+        tools:ignore="UnusedAttribute">
+
+        <TextView
+            android:id="@+id/titulo"
+            style="@style/TextAppearance.AppCompat.Title.Inverse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/titulo"
+            android:paddingLeft="5dp"
+            android:textColor="@color/colorMenuPrimaryText"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/textHeadline"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/fecha"
+            android:text="@string/fecha"
+            style="@style/TextAppearance.AppCompat.Subhead.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:textColor="@color/colorMenuTertiaryText"
+            android:textSize="@dimen/textSubheading"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary_alpha_launcher"
+        android:paddingTop="5dp"
+        android:layout_weight=".4"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/ic_tecnica_relajacion_progresiva"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription"
+            android:padding="50dp"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".1"
+        android:layout_marginBottom="16dp"
+       >
+
+        <!--
+        <TextView
+            android:id="@+id/contenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:text="Contenido"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colorMenuPrimaryText"
+            android:textSize="@dimen/textBody2"
+            tools:ignore="HardcodedText"
+            />
+
+        -->
+
+        <WebView
+            android:id="@+id/contenido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </ScrollView>
+
+</LinearLayout>

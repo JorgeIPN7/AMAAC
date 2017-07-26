@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.enterprises.devare.amaac_avanzaado.controlador.adapters.Comunicador_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary_light">
+
+        <include layout="@layout/recycler_view_card_item_frase" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="ScrollViewSize">
+
+            <!-- *********************************************************************Verbos_AUX********* -->
+            <include layout="@layout/recycler_view_card_tablero_verbos_aux" />
+            <!-- *********************************************************************Respuestas********* -->
+            <include layout="@layout/recycler_view_card_tablero_respuestas" />
+            <!-- *********************************************************************Respuestas********* -->
+            <include layout="@layout/recycler_view_card_tablero_verbos" />
+            <!-- *********************************************************************Respuestas********* -->
+            <include layout="@layout/recycler_view_card_tablero_bebidas" />
+            <!-- *********************************************************************Respuestas********* -->
+            <include layout="@layout/recycler_view_card_tablero_frutas" />
+            <!-- *********************************************************************Respuestas********* -->
+            <include layout="@layout/recycler_view_card_tablero_verduras" />
+            <!-- *********************************************************************Respuestas********* -->
+            <include layout="@layout/recycler_view_card_tablero_comida" />
+            <!-- *********************************************************************Respuestas********* -->
+            <include layout="@layout/recycler_view_card_tablero_postres" />
+            <!-- *********************************************************************Respuestas********* -->
+            <include layout="@layout/recycler_view_card_tablero_alimentos" />
+            <!-- *********************************************************************Respuestas********* -->
+            <include layout="@layout/recycler_view_card_tablero_animales" />
+            <!-- *********************************************************************Respuestas********* -->
+            <include layout="@layout/recycler_view_card_tablero_objetos" />
+            <!-- *********************************************************************Respuestas********* -->
+            <include layout="@layout/recycler_view_card_tablero_animo" />
+            <!-- *********************************************************************Respuestas********* -->
+            <include layout="@layout/recycler_view_card_tablero_lugares" />
+            <!-- *********************************************************************Respuestas********* -->
+            <include layout="@layout/recycler_view_card_tablero_familia" />
+            <!-- *********************************************************************Respuestas********* -->
+            <include layout="@layout/recycler_view_card_tablero_profesiones" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.enterprises.devare.amaac_avanzaado">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- UI Pantalla de Inicio -->
+        <activity
+            android:name=".controlador.activitys.SplashScreen"
+            android:theme="@style/AppFullScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- UI Términos y Condiciones -->
+        <activity
+            android:name=".controlador.activitys.TerminosYCondiciones"
+            android:theme="@style/AppFullScreenTheme" />
+
+        <!-- Inicio de las configuraciones de la aplicación AMAAC -->
+        <activity
+            android:name=".controlador.activitys.IniciarConfiguraciones"
+            android:theme="@style/AppFullScreenTheme" />
+        <activity
+            android:name=".controlador.activitys.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- UI de Como usar la aplicacion -->
+        <activity
+            android:name=".controlador.activitys.GuiapadreListActivity"
+            android:label="@string/guia_padre"
+            android:parentActivityName=".controlador.activitys.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="controlador.activitys.MainActivity" />
+        </activity>
+
+        <!-- UI detalle de Como usar la aplicacion -->
+        <activity
+            android:name=".controlador.activitys.GuiapadreDetailActivity"
+            android:parentActivityName=".controlador.activitys.GuiapadreListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controlador.activitys.GuiapadreListActivity" />
+        </activity>
+
+        <activity
+            android:name=".controlador.activitys.TecnicaListActivity"
+            android:label="@string/consejos_relajacion"
+            android:parentActivityName=".controlador.activitys.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controlador.activitys.TecnicaListActivity" />
+        </activity>
+
+        <activity android:name=".controlador.activitys.TecnicaDetailActivity"
+            android:label="@string/title_tecnica_detail"
+            android:parentActivityName=".controlador.activitys.TecnicaListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controlador.activitys.TecnicaListActivity" />
+        </activity>
+
+
+        <activity
+            android:screenOrientation="landscape"
+            android:theme="@style/AppFullScreenTheme"
+            android:name=".controlador.adapters.Comunicador_main" />
+
+
+        <activity
+            android:name=".controlador.adapters.IniciarNivel_main"
+            android:label="Niveles"
+            android:parentActivityName=".controlador.activitys.MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="controlador.activitys.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".controlador.adapters.VocalesEjercicios_main"
+            android:label="Nivel Vocales"
+            android:parentActivityName=".controlador.adapters.IniciarNivel_main"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controlador.adapters.IniciarNivel_main" />
+        </activity>
+
+        <activity
+            android:name=".controlador.adapters.ConsonantesEjercicios_main"
+            android:label="Nivel Consonantes"
+            android:parentActivityName=".controlador.adapters.IniciarNivel_main"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controlador.adapters.IniciarNivel_main" />
+        </activity>
+
+        <activity
+            android:name=".controlador.adapters.MonosilabasEjercicios_main"
+            android:label="Nivel Monosilabas"
+            android:parentActivityName=".controlador.adapters.IniciarNivel_main"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controlador.adapters.IniciarNivel_main" />
+        </activity>
+
+        <activity
+            android:name=".controlador.adapters.BisilabasEjercicios_main"
+            android:label="Nivel Bisilabas"
+            android:parentActivityName=".controlador.adapters.IniciarNivel_main"
+            android:screenOrientation="portrait"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controlador.adapters.IniciarNivel_main" />
+        </activity>
+
+        <activity
+            android:name=".controlador.adapters.PolisilabasEjercicios_main"
+            android:label="Nivel Polisilabas"
+            android:parentActivityName=".controlador.adapters.IniciarNivel_main"
+            android:screenOrientation="portrait"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controlador.adapters.IniciarNivel_main" />
+        </activity>
+
+        <activity
+            android:name=".controlador.adapters.Ejercicios"
+            android:label="Ejercicios Vocales"
+            android:parentActivityName=".controlador.adapters.VocalesEjercicios_main"
+            android:screenOrientation="portrait"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controlador.adapters.IniciarNivel_main" />
+
+        </activity>
+
+        <activity
+        android:name=".controlador.adapters.EjerciciosConsonantes"
+        android:label="Ejercicios Consonantes"
+        android:parentActivityName=".controlador.adapters.ConsonantesEjercicios_main"
+            android:screenOrientation="portrait"
+            >
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".controlador.adapters.IniciarNivel_main" />
+
+         </activity>
+
+        <activity
+            android:name=".controlador.adapters.EjerciciosMonosilabas"
+            android:label="Ejercicios Monosilabas"
+            android:parentActivityName=".controlador.adapters.MonosilabasEjercicios_main"
+            android:screenOrientation="portrait"
+            >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controlador.adapters.IniciarNivel_main" />
+
+        </activity>
+
+        <activity
+            android:name=".controlador.adapters.EjerciciosBisilabas"
+            android:label="Ejercicios Bisilabas"
+            android:parentActivityName=".controlador.adapters.BisilabasEjercicios_main"
+            android:screenOrientation="portrait"
+            >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controlador.adapters.IniciarNivel_main"
+                />
+
+        </activity>
+
+        <activity
+            android:name=".controlador.adapters.EjerciciosPolisilabas"
+            android:label="Ejercicios Polisilabas"
+            android:parentActivityName=".controlador.adapters.PolisilabasEjercicios_main"
+            android:screenOrientation="portrait"
+            >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".controlador.adapters.IniciarNivel_main"
+                />
+
+        </activity>
+    </application>
+
+</manifest>
